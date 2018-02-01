@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>Temperature Converter</h1>
+   
     <!-- input -->
+    <h3>Input your temperature in numerals:</h3>
     <input id="tempInput">
 
 
@@ -17,17 +19,24 @@
     <!-- /input -->
     
     <!-- radio buttons -->
+    <h3>Choose your current tempetature's system:</h3>
     <form name="form1" action="">
-        <input type="radio" name="temperatureConverter" value="fehrenheit" id="fehrenheit">Fehrenheit
-        <input type="radio" name="temperatureConverter" value="celsius">Celsius
+        <input type="radio" name="temperatureConverter" value="fehrenheit" id="fehrenheit">Fehrenheit</input>
+        <input type="radio" name="temperatureConverter" value="celsius" id="celsius">Celsius</input>
     </form>
+    <br>
     <!-- /radio buttons -->
-
+    
     <!-- convert -->
     <button id="convert">Convert</button>
     <!-- /convert -->
     
+    <!-- clear -->
+    <button id="clear">Clear</button>
+    <!-- /clear -->
+
     <!-- output -->
+    <br>
     <output id="tempOutput">
 
     </output>
